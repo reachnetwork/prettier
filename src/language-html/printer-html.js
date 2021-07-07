@@ -407,7 +407,16 @@ function genericPrint(path, options, print) {
       const value = unescapeQuoteEntities(node.value);
       const singleQuoteCount = countChars(value, "'");
       const doubleQuoteCount = countChars(value, '"');
-      const quote = singleQuoteCount < doubleQuoteCount ? "'" : '"';
+
+      let quote = '"'; // Let's just default it to this for now.
+
+      // This is a fix for some special cases in Chimera.
+      if (`${node.valueSpan}`.match(/^'[^\[\]]*\[\[[^\]]+\]\][^\[\]]*'$/) !== null) {
+        quote = "'";
+      } else {
+        quote = singleQuoteCount < doubleQuoteCount ? "'" : '"';
+      }
+
       return [
         node.rawName,
 
