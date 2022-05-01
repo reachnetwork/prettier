@@ -3104,10 +3104,12 @@ eslint@7.30.0:
     text-table "^0.2.0"
     v8-compile-cache "^2.0.3"
 
-esm-utils@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/esm-utils/-/esm-utils-1.1.0.tgz#026fd8c97eee9a9b956f6f3890c9b6b5b57c4771"
-  integrity sha512-vm3Q1u5RvJFKbizsyK4POBdFjXJFwA+1zEbSAuC+ekjOVWGt/FCXfY8b548fccFLGPihOu1CuS//EOUsj6jczA==
+esm-utils@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/esm-utils/-/esm-utils-3.1.1.tgz#5c9a17bb4239fb1a29cd578c56db37c12170ecd7"
+  integrity sha512-NytBLB+N+Y9JNzGilK2WANaEUo3iqxAfhgC5A63m1L7HOzXJ+hr2OePb/Fw2RR/ywunbs7Ewbi+W0d94R+8Uhw==
+  dependencies:
+    url-or-path "2.1.0"
 
 espree@7.3.1, espree@^7.3.0, espree@^7.3.1:
   version "7.3.1"
@@ -6410,6 +6412,11 @@ uri-js@^4.2.2:
   integrity sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   dependencies:
     punycode "^2.1.0"
+
+url-or-path@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/url-or-path/-/url-or-path-2.1.0.tgz#8bb39a2a2b7e8f2e31c7883d8207b0cbd07acb9f"
+  integrity sha512-dsBD6GbytSMj9YDb3jVzSRENwFh50oUORnWBeSHfo0Lnwv2KMm/J4npyGy1P9rivUPsUGLjTA53XqAFqpe0nww==
 
 v8-compile-cache@^2.0.3:
   version "2.3.0"
