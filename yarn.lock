@@ -2964,7 +2964,7 @@ eslint-plugin-jest@24.3.6:
     "@typescript-eslint/experimental-utils" "^4.0.1"
 
 "eslint-plugin-prettier-internal-rules@link:scripts/tools/eslint-plugin-prettier-internal-rules":
-  version "0.0.0"
+  version "1.0.3"
 
 eslint-plugin-react@7.24.0:
   version "7.24.0"
@@ -3510,10 +3510,10 @@ hosted-git-info@^2.1.4:
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
   integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
-html-element-attributes@2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/html-element-attributes/-/html-element-attributes-2.3.0.tgz#a192ac90a457be9f1e2cc9ab69000ee89be74aa6"
-  integrity sha512-RJv2v3BBaYSc0ODHwT0sqWI+2lFs6DATBvCRnW20BDmULxoAWvfT6r28uL8LcW1a9/eqUl+1DccUOJzw00qVXQ==
+html-element-attributes@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/html-element-attributes/-/html-element-attributes-3.2.0.tgz#764b9c1fd66a079dd13efb6eca66daae10122038"
+  integrity sha512-wdtYaghl6M4N4Bp91QE9p1AS849PHoa1tPrkSmEhxgF4VnD04o5BrEaODc1XqPjjt5UmuzOJNn0hvoWu0514nQ==
 
 html-encoding-sniffer@^2.0.1:
   version "2.0.1"
