@@ -2964,7 +2964,7 @@ eslint-plugin-jest@24.3.6:
     "@typescript-eslint/experimental-utils" "^4.0.1"
 
 "eslint-plugin-prettier-internal-rules@link:scripts/tools/eslint-plugin-prettier-internal-rules":
-  version "0.0.0"
+  version "1.0.3"
 
 eslint-plugin-react@7.24.0:
   version "7.24.0"
@@ -3318,10 +3318,10 @@ flatten@^1.0.2:
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.3.tgz#c1283ac9f27b368abc1e36d1ff7b04501a30356b"
   integrity sha512-dVsPA/UwQ8+2uoFe5GHtiBMu48dWLTdsuEd7CKGlZlD78r1TTWBvDuFaFGKCo/ZfEr95Uk56vZoX86OsHkUeIg==
 
-flow-parser@0.154.0:
-  version "0.154.0"
-  resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.154.0.tgz#ea195e3c9f9a6488466e5e29e80b50cea8035485"
-  integrity sha512-cH9xY/ljOgmqG1n7PU1jffiHhRggoloauwOrOlCWBEX4Y+ml6GA8g//tCVKU+6PO4BXoPF22TFHkS5E1bN3JOQ==
+flow-parser@0.207.0:
+  version "0.207.0"
+  resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.207.0.tgz#376975f6b88991bf0ef9496fa3bffd5eb3120046"
+  integrity sha512-s90OlXqzWj1xc4yUtqD1Gr8pGVx0/5rk9gsqPrOYF1kBAPMH4opkmzdWgQ8aNe3Pckqtwr8DlYGbfE2GnW+zsg==
 
 form-data@^3.0.0:
   version "3.0.1"
